@@ -1,0 +1,211 @@
+#home {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('images/ali-maah-zyOeEm4NsPM-unsplash.jpg');
+    /* background: url('https://source.unsplash.com/random'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.navbar{
+    position:sticky;
+}
+
+.navbar ul li {
+    padding: 0 10px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.navbar ul li a{
+    /* padding: 0 10px; */
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+   
+    cursor: pointer;
+}
+
+.heading {
+font-size: 40px;
+font-family: 'Ubuntu', sans-serif;
+
+padding: 100px 60px;
+margin: auto; 
+color:#efef07;
+
+} 
+.para{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Shadows Into Light', cursive;
+   
+   
+}
+
+@media(max-width:320px){
+  .heading{
+    font-size: 20px;
+  }
+    .para{
+        font-size: 1.2rem;
+        }   
+
+        #home {
+        margin: auto;
+        }
+   }
+
+#book-now{
+text-align: center;
+background:#e8e2e8;
+
+
+}
+
+.book-now-heading{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    color:#3582f5;
+}
+
+
+.container{
+    padding-top: 40px;
+}
+
+
+.card-title{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #9383e8;
+}
+
+@media(max-width:768px){
+.cards{
+    margin: 2rem auto;
+}
+}
+
+
+#review{
+    margin-top: 2rem;
+    /* margin: 50px 0px; */
+    padding: 50px 0px;
+    background-color: #dce0ec;
+    text-align: center;
+}
+
+.review-img{
+    border-radius: 50%;
+    width: 30%;
+}
+
+.rev-head{
+    color: #7b3939;
+    padding-bottom: 2rem;
+}
+
+.rev-para{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.rev-heading{
+    font-weight: 500;
+    /* font-size: 1.5rem; */
+    /* font-weight: 300; */
+    font-family: 'Anton', sans-serif;
+  
+}
+
+#contact-us{
+    margin-top: 2rem;
+    text-align: center;
+    background-color: rgb(206 220 226);
+
+
+}
+
+.contact-container{
+width: 500px;
+height: 500px;
+margin: 2rem auto;
+}
+
+
+
+@media(max-width:502px){
+    .contact-container{
+        width: 300px;
+    }
+}
+
+@media(max-width:280px){
+    .contact-container{
+        width: 200px;
+    }
+}
+
+#about-us{
+    text-align: center;
+    background-color: #f9f2ff;
+}
+
+
+.about-img{
+    border-radius: 50%;
+    width: 20%;
+}
+
+#book{
+    text-align: center;
+    /* background-color: rgb(244 236 251); */
+    background-color: red;
+}
+
+
+.about-container{
+    /* margin-top: 3rem; */
+    padding-top: 150px ;
+}
+
+.con{
+    background-color: #f9f6f6;
+    color: royalblue;
+    height: 120px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #9dbebf;
+    overflow: hidden;
+    padding: 5% 10%;
+}
+
+.social-icon {
+    margin: 16px 12px;
+}
+
+
+
+#hhh{
+    text-align: center;
+}
+
+.book-container{
+    width: 600px;
+    height: 600px;
+    margin: 2rem auto;
+    /* background-color: blue; */
+
+}
+
+
